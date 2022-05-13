@@ -1,0 +1,51 @@
+form{
+    opacity: 0.9;
+    /* padding: 2px; */
+    
+}
+@media only screen and (max-width: 768px) {
+    .overlay {
+      display: none !important;
+    }
+    .swap{
+      order: 1
+    }
+    .head-img{
+      display: none;
+   /* background-image: url(https://w0.peakpx.com/wallpaper/927/891/HD-wallpaper-mvc-megaman-capcom-m1s2-marvel-megaman-mvc.jpg); */
+        width: 100%;
+        height: 100%;
+        
+     }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .back-img {
+      display: none !important;
+    }
+    .list-group{
+      position: absolute;
+     overflow-y: auto;
+     right: 1em;
+     order: 0;
+     top: 8em
+    }
+}
+
+.sf{
+    font-family: 'Koulen', cursive;
+    
+}
+
+
+
+.list-group-item{
+  background-color: rgb(96, 7, 23);
+  color: aliceblue;
+  
+}
+.list-group{
+  position: relative;
+  padding: auto;
+min-width: 100%
+}
