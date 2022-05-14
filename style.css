@@ -7,9 +7,17 @@ form{
     .overlay {
       display: none !important;
     }
+   
     .swap{
+      
       order: 1
     }
+    
+    .mid{
+      order: -1;
+    }
+    
+   
     .head-img{
       display: none;
    /* background-image: url(https://w0.peakpx.com/wallpaper/927/891/HD-wallpaper-mvc-megaman-capcom-m1s2-marvel-megaman-mvc.jpg); */
@@ -30,6 +38,17 @@ form{
      order: 0;
      top: 8em
     }
+    .mid{
+      order: 0;
+    }
+    .not{
+      order:-1;
+    }
+    .not2{
+      order: 1;
+    }
+    
+   
 }
 
 .sf{
@@ -48,4 +67,8 @@ form{
   position: relative;
   padding: auto;
 min-width: 100%
+}
+.sfl{
+  
+ max-width: 3em;
 }
