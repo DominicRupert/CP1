@@ -83,3 +83,12 @@ min-width: 100%;
   
  max-width: 3em;
 }
+.foot{
+  background-image: url(https://i.makeagif.com/media/9-23-2016/NreqPH.gif);
+  /* background-size: cover; */
+max-width: 100%;
+
+object-position: center;
+max-height: 50%;
+
+}
