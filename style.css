@@ -1,88 +1,79 @@
-form{
-    opacity: 0.9;
-    /* padding: 2px; */
-    
+form {
+  opacity: 0.9;
+  /* padding: 2px; */
 }
 @media only screen and (max-width: 768px) {
-    .overlay {
-      display: none !important;
-    }
-   
-    .swap{
-      
-      order: 1
-    }
-    
-    .mid{
-      order: -1;
-      padding: 0em !important;
-      display: flex;
-      background-position-y: 0em !important;
-      background-repeat: no-repeat;
-    }
-    .list-group{
-      position: relative;
-     padding-left: 0em !important ;
-      padding-top : 1em;
-      padding-bottom: 2em;
-    min-width: 100%;
-    
-    }
-    
-   
-    .head-img{
-      display: none;
-   background-image: url(https://w0.peakpx.com/wallpaper/927/891/HD-wallpaper-mvc-megaman-capcom-m1s2-marvel-megaman-mvc.jpg);
-        width: 100%;
-        height: 100%;
-        
-     }
-     .foot{
-      background-image: url(https://i.makeagif.com/media/9-23-2016/NreqPH.gif);
-      /* background-size: cover; */
-    
-    color: brown !important;
-    object-position: center;
-    background-position-y: 0em !important;
-padding: 0em !important;
-display: flex;
-background-size: cover;
-background-position-x:-8em ;
-    
-    
-    }
+  .overlay {
+    display: none !important;
   }
 
-  @media only screen and (min-width: 768px) {
-    .back-img {
-      display: none !important;
-    }
-    .list-group{
-      position: absolute;
-     overflow-y: auto;
-     right: 1em;
-     order: 0;
-     top: 10em;
-     display: flex;
-    }
-    .mid{
-      order: 0;
-      background-image: url('https://c.tenor.com/gXXHVCNcPLEAAAAC/guilty-gear-xrd-baiken.gif') !important;
-      background-size: cover;
-      color: aliceblue;
-    }
-    .not{
-      order:-1;
-    }
-    .not2{
-      order: 1;
-    }
-    
-   
+  .swap {
+    order: 1;
+  }
+
+  .mid {
+    order: -1;
+    padding: 0em !important;
+    display: flex;
+    background-position-y: 0em !important;
+    background-repeat: no-repeat;
+  }
+  .list-group {
+    position: relative;
+    padding-left: 0em !important ;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    min-width: 100%;
+  }
+
+  .head-img {
+    display: none;
+    background-image: url(https://w0.peakpx.com/wallpaper/927/891/HD-wallpaper-mvc-megaman-capcom-m1s2-marvel-megaman-mvc.jpg);
+    width: 100%;
+    height: 100%;
+  }
+  .foot {
+    background-image: url(https://i.makeagif.com/media/9-23-2016/NreqPH.gif);
+    /* background-size: cover; */
+
+    color: brown !important;
+    object-position: center;
+    background-position-y: -6em !important;
+    background-position-x: -12em !important;
+    padding: 0em !important;
+    display: flex;
+    background-size: cover;
+  }
 }
-.mid{
+
+@media only screen and (min-width: 768px) {
+  .back-img {
+    display: none !important;
+  }
+  .list-group {
+    position: absolute;
+    overflow-y: auto;
+    right: 1em;
+    order: 0;
+    top: 10em;
+    display: flex;
+  }
+  .mid {
+    order: 0;
+    background-image: url("https://c.tenor.com/gXXHVCNcPLEAAAAC/guilty-gear-xrd-baiken.gif") !important;
+    background-size: cover;
+    color: aliceblue;
+  }
+  .not {
+    order: -1;
+  }
+  .not2 {
+    order: 1;
+  }
+}
+.mid {
   order: 0;
-  background-image: url('https://c.tenor.com/gXXHVCNcPLEAAAAC/guilty-gear-xrd-baiken.gif') !important;
+  background-image: url("https://c.tenor.com/gXXHVCNcPLEAAAAC/guilty-gear-xrd-baiken.gif") !important;
   background-size: cover;
   color: aliceblue;
   padding: 0em;
@@ -90,40 +81,33 @@ background-position-x:-8em ;
   background-position-y: 0em;
   background-repeat: no-repeat;
 }
-.sf{
-    font-family: 'Koulen', cursive;
-    
+.sf {
+  font-family: "Koulen", cursive;
 }
 
-
-
-.list-group-item{
+.list-group-item {
   background-color: rgb(96, 7, 23);
   color: aliceblue;
-  
 }
-.list-group{
+.list-group {
   position: relative;
   padding-left: 3em;
-  padding-top : 1em;
+  padding-top: 1em;
   padding-bottom: 2em;
-max-width: 60%;
-
+  max-width: 60%;
 }
-.sfl{
-  
- max-width: 3em;
+.sfl {
+  max-width: 3em;
 }
-.foot{
+.foot {
   background-image: url(https://i.makeagif.com/media/9-23-2016/NreqPH.gif);
   /* background-size: cover; */
-max-width: 100%;
-color: brown !important;
-object-position: center;
-max-height: 50%;
-background-size: cover;
-background-position-y: -5em ;
-padding: 8em ;
-background-repeat: no-repeat;
-
+  max-width: 100%;
+  color: brown !important;
+  object-position: center;
+  max-height: 50%;
+  background-size: cover;
+  background-position-y: -5em;
+  padding: 8em;
+  background-repeat: no-repeat;
 }
