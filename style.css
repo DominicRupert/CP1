@@ -85,9 +85,9 @@ background-position-x:-8em ;
   background-image: url('https://c.tenor.com/gXXHVCNcPLEAAAAC/guilty-gear-xrd-baiken.gif') !important;
   background-size: cover;
   color: aliceblue;
-  padding: 2em;
+  padding: 0em;
   display: flex;
-  background-position-y: -2em;
+  background-position-y: 0em;
   background-repeat: no-repeat;
 }
 .sf{
@@ -122,8 +122,8 @@ color: brown !important;
 object-position: center;
 max-height: 50%;
 background-size: cover;
-background-position-y: -7em ;
-padding: 10em ;
+background-position-y: -5em ;
+padding: 8em ;
 background-repeat: no-repeat;
 
 }
